@@ -9,8 +9,12 @@ Line 1: 0 is falsy value, '0' is not.
 Line 2: The empty array is truthy, 0 is falsy. 
         JS will coerce both to numbers. The empty array lenght is 0 
         so the result will be ture as 0 == 0
-line 3: Both valus are truthy. JS can't coerce them to become the same type
-        therfor the resul is false */
+line 3: /*Yash feddback:
+        when we compare '0' == [] or 0 == [] - JavaScript will try to convert the
+        empty array to a string using toString i.e [].toString() which is equal to
+        an empty string. Thus, 0 == [] is essentially comparing 0 == "" which is 
+        true since both sides are falsy. However, '0' == [] results in '0' == '' 
+        which is false since right side is falsy but left side is truthy. Does it make sense*/
 
 //2:================================================================
 const x = [1, 2, 3];

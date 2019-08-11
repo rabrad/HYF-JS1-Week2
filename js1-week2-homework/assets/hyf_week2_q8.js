@@ -1,7 +1,7 @@
-let itemOne = 8;
-let itemTwo = 'Deh Haag';
-let itemThree = [1, 2, 3];
-let itemFour = { somthing: 1 };
+const itemOne = 8;
+const itemTwo = 'Deh Haag';
+const itemThree = [1, 2, 3];
+const itemFour = { somthing: 1 };
 console.log('The value of my variable foo is: ' + itemOne);
 console.log('The value of my variable foo is: ' + itemTwo);
 console.log('The value of my variable foo is: ' + itemThree);
@@ -16,13 +16,13 @@ console.log(typeof itemThree);
 console.log(typeof itemFour);
 
 // Comparing the type of the variables with if else:
-if (typeof itemOne == typeof itemTwo) {
+if (typeof itemOne === typeof itemTwo) {
   console.log('SAME TYPE');
 } else {
   console.log('NOT SAME TYPE'); // Will log: NOT SAME TYPE
 }
 
-if (typeof itemThree == typeof itemFour) {
+if (typeof itemThree === typeof itemFour) {
   console.log('SAME TYPE'); // Will log: SAME TYPE
 } else {
   console.log('NOT SAME TYPE');

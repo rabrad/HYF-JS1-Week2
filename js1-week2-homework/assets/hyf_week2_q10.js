@@ -1,5 +1,5 @@
 // Yes I can store multible types in an array.
-let hArr = [1, 2, 'string', [1, 2, 3]];
+const hArr = [1, 2, 'string', [1, 2, 3]];
 console.log(hArr);
 
 /* -Infinities.. But frist, Who is Iyad? :) 
